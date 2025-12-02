@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Awesome Library Cleaner",
+    "guid": "eede8c45-dff4-4aee-8d7a-f5972a91348e",
+    "overview": "Awesome Library Cleaner helps you clean up your media library",
+    "description": "Awesome Library Cleaner (or ALC) is a Jellyfin plugin that helps you clean up your media library by removing old or unwanted items.",
+    "owner": "storm1er",
+    "category": "General",
+    "imageUrl": "",
+    "versions": [
+      {
+        "changelog": "- Initial release",
+        "targetAbi": "10.11.0.0",
+        "version": "1.0.0.0",
+        "sourceUrl": "https://github.com/storm1er/jellyfin-plugin-awesome-library-cleaner/releases/download/1.0.0.0/awesome-library-cleaner_1.0.0.0.zip",
+        "checksum": "5D246C5F75A51F2FD2EA5797B9E269EC",
+        "timestamp": "2025-12-02T21:27:00"
+      }
+    ]
+  }
+]
