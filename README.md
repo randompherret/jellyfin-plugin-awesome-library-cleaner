@@ -114,7 +114,12 @@ Access the cleanup interface at **Dashboard** → **Plugins** → **Awesome Libr
 
 ## Installation
 
-### TODO
+- **Dashboard** → **Plugins** → **Manage Repositories** → **New Repository**
+  - Repository Name: ALC
+  - Repository URL: `https://raw.githubusercontent.com/storm1er/jellyfin-plugin-awesome-library-cleaner/refs/heads/main/manifest.json`
+- **Dashboard** → **Plugins** → **All** → **Awesome Library Cleaner** → **Install**
+- **Dashboard** → **Restart**
+- **Dashboard** → **Plugins** → **Awesome Library Cleaner** → **Settings**
 
 ## Requirements
 
