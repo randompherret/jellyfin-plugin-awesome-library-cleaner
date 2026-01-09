@@ -64,6 +64,7 @@ public class LibrarySettings
         DeletionDays = 0;
         DeleteAutomation = false;
         ExcludeFavorites = true;
+        RequireWatched = true;
         ElementReferenceOption = ElementReference.WholeSeries;
     }
 
@@ -111,6 +112,11 @@ public class LibrarySettings
     /// Gets or sets a value indicating whether favorites should be excluded from cleanup.
     /// </summary>
     public bool ExcludeFavorites { get; set; }
+
+    /// <summary>
+    /// Gets or sets a value indicating whether video needs to be fully watched.
+    /// </summary>
+    public bool RequireWatched { get; set; }
 
     /// <summary>
     /// Gets or sets the element reference option for TV shows.

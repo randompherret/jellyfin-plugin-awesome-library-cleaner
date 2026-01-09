@@ -160,6 +160,7 @@
                 const deletionDays = settings ? settings.DeletionDays : 0;
                 const deleteAuto = settings ? settings.DeleteAutomation : false;
                 const excludeFavs = settings ? (settings.ExcludeFavorites !== false) : true;
+                const requireWatch = settings ? (settings.RequireWatched !== false) : true;
                 const elementRef = settings ? mapElementReferenceToValue(settings.ElementReferenceOption) : 2;
 
                 return '<div class="library-section" data-library-id="' + libraryId + '">' +
@@ -199,6 +200,11 @@
                     '<input class="library-exclude-favs" type="checkbox" is="emby-checkbox" ' + (excludeFavs ? 'checked' : '') + ' />' +
                     '<span>Exclude Favorites</span></label>' +
                     '<div class="fieldDescription">Prevent user favorites from being cleaned</div></div>' +
+                    '<div class="checkboxContainer checkboxContainer-withDescription settings-row">' +
+                    '<label class="emby-checkbox-label">' +
+                    '<input class="library-require-watched" type="checkbox" is="emby-checkbox" ' + (requireWatch ? 'checked' : '') + ' />' +
+                    '<span>Require Watched</span></label>' +
+                    '<div class="fieldDescription">Require that the video be marked read by atleast one user</div></div>' +
                     (isTvShows ? '<div class="selectContainer settings-row">' +
                     '<label class="selectLabel">Element Reference (TV Shows Only)</label>' +
                     '<select class="library-element-ref emby-select-withcolor emby-select" is="emby-select">' +
